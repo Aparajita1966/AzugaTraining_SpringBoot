@@ -1,0 +1,59 @@
+.table {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-collapse: collapse;
+font-family: 'Quicksand', sans-serif;
+overflow: hidden;
+font-weight: bold;
+}
+.table thead th{
+background: #009578;
+color:#ffffff;
+}
+
+.table td,
+.table th {
+padding: 10px 20px;
+}
+
+.table tbody tr:nth-of-type(even) {
+background:#eeeeee
+}
+.table tbody tr:last-of-type {
+border-bottom: 2px solid #009578;
+}
+
+div.centerOnPrintedPage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+}
+
+input[type=text], select {
+  width: 15%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+pager-nav {
+    margin: 16px 0;
+}
+.pager-nav span {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 1px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.pager-nav span:hover,
+.pager-nav .pg-selected {
+    background-color: #f9f9f9;
+    border: 1px solid #CCCCCC;
+}
