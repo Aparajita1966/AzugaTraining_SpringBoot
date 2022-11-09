@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.9">
+    <title>Update Object</title>
+    <link href="form.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body align="center" >
+<h1> UPDATE YOUR OBJECT DETAILS</h1>
+<table cellspacing="2" align="center" cellpadding="8" border="0">
+    <tr><td> ObjectID</td>
+        <td><input type="number" placeholder="Enter your ObjectId" id="objectId" readonly></td></tr>
+    <tr><td> Object Name </td>
+        <td><input type="text" placeholder="Enter your Object Name" id="objectName"></td></tr>
+    <tr><td> IsHighlight</td>
+        <td><input type="text" placeholder="Enter your IsHighlight" id="isHighlight"></td></tr>
+    <tr><td> Accession Number</td>
+        <td><input type="text" placeholder="Enter your Accession Number" id="accessionNumber"></td></tr>
+    <tr><td>
+        <input type="submit" value="Update Object" onClick="update_object()"/>
+</table>
+<script src="/updateForm.js"></script>
+</body>
+</html>
